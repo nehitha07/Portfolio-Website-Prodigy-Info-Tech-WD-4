@@ -1,0 +1,156 @@
+﻿body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.main-header {
+  background-color: rgb(158, 20, 217);
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav {
+  background-color: black;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-nav li {
+  margin: 0;
+}
+
+.main-nav a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.main-nav a:hover {
+  background-color: #333;
+}
+
+.welcome {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.skill-box {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 30%;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.skill-box h3 {
+  text-align: center;
+}
+
+.skill-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-box li {
+  padding: 5px 0;
+  font-weight: bold;
+}
+
+.red { color: red; }
+.orange { color: orange; }
+.yellow { color: goldenrod; }
+.green { color: green; }
+.blue { color: blue; }
+.purple { color: purple; }
+
+.projects-container, .about-container, .services-container, .contact-container, .login-container, .register-container {
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.card.blue { background-color: #e0f0ff; }
+.card.purple { background-color: #f4e0ff; }
+.card.green { background-color: #e0ffe0; }
+.card.yellow { background-color: #ffffe0; }
+
+.info-box {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.contact-container h2 {
+  color: blue;
+  text-align: center;
+}
+
+.login-container, .register-container {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+}
+
+form {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(36, 11, 227);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: rgb(21, 211, 224);
+}
+
+.service-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+  color: white;
+}
+
+.service-box.web { background-color: #4caf50; }
+.service-box.python { background-color: #306998; }
+.service-box.java { background-color: #b0751e; }
+.service-box.fullstack { background-color: #2196f3; }
